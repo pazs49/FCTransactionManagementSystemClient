@@ -78,7 +78,8 @@ const TransactionsHeader = () => {
       transaction_date.trim() !== "" &&
       accountNumberValid &&
       account_holder_name.trim() !== "" &&
-      amount !== ""
+      amount !== "" &&
+      amount > 0
     );
   };
 
