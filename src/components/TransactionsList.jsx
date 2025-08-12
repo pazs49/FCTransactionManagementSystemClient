@@ -27,7 +27,7 @@ const TransactionsList = ({ transactions }) => {
     <Table>
       <TableHeader>
         <TableRow>
-          <TableHead className="w-[100px]">Transaction Date</TableHead>
+          <TableHead>Transaction Date</TableHead>
           <TableHead>Account Number</TableHead>
           <TableHead>Account Holder Name</TableHead>
           <TableHead>Amount</TableHead>
